@@ -88,28 +88,16 @@ export default function CityCarousel({ cities }: { cities: City[] }) {
             href={`/${city.City_ID}`}
             className="group block flex-shrink-0 w-64 snap-start"
           >
-            <div className="aspect-[3/4] bg-[#1a1a1a] rounded-lg overflow-hidden flex flex-col">
-              {/* Label badge */}
-              <div className="bg-[#1a1a1a] px-4 py-3 flex-shrink-0">
-                <p className="text-[10px] tracking-[0.2em] uppercase text-white/60">
-                  Darb City Guide
-                </p>
-                <h3 className="font-serif text-xl text-white mt-1">
-                  {city.City_Name}
-                </h3>
-              </div>
-              
-              {/* Image - fills remaining space, crops to fit */}
+            <div className="aspect-[3/4] rounded-lg overflow-hidden relative">
+              {/* Full bleed image */}
               {city.Hero_Image ? (
-                <div className="flex-1 overflow-hidden">
-                  <img
-                    src={convertDriveUrl(city.Hero_Image)}
-                    alt={city.City_Name}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
+                <img
+                  src={convertDriveUrl(city.Hero_Image)}
+                  alt={city.City_Name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
               ) : (
-                <div className="flex-1 flex items-center justify-center bg-[#2563eb]">
+                <div className="w-full h-full bg-[#1a1a1a] flex items-center justify-center">
                   <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1" className="opacity-30">
                     <circle cx="12" cy="12" r="10" />
                     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
@@ -117,6 +105,18 @@ export default function CityCarousel({ cities }: { cities: City[] }) {
                   </svg>
                 </div>
               )}
+              
+              {/* Text overlay */}
+              <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent">
+                <div className="p-4">
+                  <p className="text-[10px] tracking-[0.2em] uppercase text-white/70">
+                    Darb City Guide
+                  </p>
+                  <h3 className="font-serif text-xl text-white mt-1">
+                    {city.City_Name}
+                  </h3>
+                </div>
+              </div>
             </div>
           </Link>
         ))}
