@@ -34,7 +34,7 @@ export default async function CityPage({ params }: PageProps) {
         <div className="max-w-full mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-6">
             <Link href="/" className="font-serif text-xl tracking-wide hover:opacity-70 transition-opacity">
-              Darb
+              Derb
             </Link>
             <div className="h-6 w-px bg-foreground/10" />
             <div>

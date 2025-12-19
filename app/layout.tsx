@@ -3,7 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Darb - Cultural Navigation",
+  title: "Derb - Cultural Navigation",
   description: "Navigate culture, not just places.",
   icons: {
     icon: "/favicon.svg",

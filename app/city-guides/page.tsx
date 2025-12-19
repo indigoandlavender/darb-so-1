@@ -90,7 +90,7 @@ export default async function CityGuidesPage() {
                   <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent">
                     <div className="p-4">
                       <p className="text-[10px] tracking-[0.2em] uppercase text-white/70">
-                        Darb City Guide
+                        Derb City Guide
                       </p>
                       <h3 className="font-serif text-xl text-white mt-1">
                         {city.City_Name}
