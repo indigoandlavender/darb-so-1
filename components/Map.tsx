@@ -55,8 +55,13 @@ export default function Map({ center, zoom = 13, pins, categories, onPinClick }:
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
+  
+  // Default to all known categories if none provided
+  const defaultCategories = ["eat", "drink", "buy", "see", "quiet", "practical"];
   const [activeCategories, setActiveCategories] = useState<string[]>(
-    categories.map(c => c.Category_ID.toLowerCase())
+    categories.length > 0 
+      ? categories.map(c => c.Category_ID.toLowerCase())
+      : defaultCategories
   );
 
   useEffect(() => {
