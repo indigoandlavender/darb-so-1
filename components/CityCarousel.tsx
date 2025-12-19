@@ -99,13 +99,13 @@ export default function CityCarousel({ cities }: { cities: City[] }) {
                 </h3>
               </div>
               
-              {/* Image - fills remaining space, shows full illustration */}
+              {/* Image - fills remaining space, crops to fit */}
               {city.Hero_Image ? (
-                <div className="flex-1 flex items-center justify-center p-2">
+                <div className="flex-1 overflow-hidden">
                   <img
                     src={convertDriveUrl(city.Hero_Image)}
                     alt={city.City_Name}
-                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               ) : (
