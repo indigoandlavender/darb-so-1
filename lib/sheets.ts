@@ -114,7 +114,7 @@ export interface Neighborhood {
 }
 
 export async function getCities(): Promise<City[]> {
-  const rows = await getSheetData("Cities");
+  const rows = await getSheetData("darb_cities");
   return rowsToObjects<City>(rows);
 }
 
@@ -124,7 +124,7 @@ export async function getCity(cityId: string): Promise<City | null> {
 }
 
 export async function getPins(cityId?: string): Promise<Pin[]> {
-  const rows = await getSheetData("Pins");
+  const rows = await getSheetData("darb_pins");
   const pins = rowsToObjects<Pin>(rows);
   if (cityId) {
     return pins.filter(p => p.City_ID === cityId);
@@ -133,12 +133,12 @@ export async function getPins(cityId?: string): Promise<Pin[]> {
 }
 
 export async function getCategories(): Promise<Category[]> {
-  const rows = await getSheetData("Categories");
+  const rows = await getSheetData("darb_categories");
   return rowsToObjects<Category>(rows);
 }
 
 export async function getNeighborhoods(cityId?: string): Promise<Neighborhood[]> {
-  const rows = await getSheetData("Neighborhoods");
+  const rows = await getSheetData("darb_neighborhoods");
   const neighborhoods = rowsToObjects<Neighborhood>(rows);
   if (cityId) {
     return neighborhoods.filter(n => n.City_ID === cityId);

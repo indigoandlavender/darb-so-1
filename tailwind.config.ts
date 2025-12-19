@@ -9,19 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#f7f6f3",
-        foreground: "#1c1c1c",
-        sand: "#edeae4",
-        cream: "#f7f6f3",
-        accent: "#2d7d6f",
+        background: "#f5f5f5",
+        foreground: "#1a1a1a",
+        sand: "#e9e9e9",
+        cream: "#f5f5f5",
+        accent: "#1a6b5c",
         muted: {
-          DEFAULT: "#e8e5df",
-          foreground: "#5a5a5a",
+          DEFAULT: "#e0e0e0",
+          foreground: "#666666",
         },
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
-        serif: ["Libre Baskerville", "serif"],
+        serif: ["DM Serif Display", "serif"],
       },
     },
   },
