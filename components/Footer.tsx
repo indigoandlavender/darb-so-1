@@ -12,7 +12,7 @@ export default function Footer() {
             {/* Logo & Tagline */}
             <div>
               <div className="flex flex-col items-start leading-tight mb-4">
-                <span className="text-lg tracking-[0.3em] font-light">DARB</span>
+                <span className="text-lg tracking-[0.3em] font-light">DERB</span>
               </div>
               <p className="text-[#e8e5df]/70 text-sm leading-relaxed max-w-xs mb-6">
                 Navigate culture, not just places. The path through.
@@ -24,8 +24,8 @@ export default function Footer() {
               <h4 className="text-xs tracking-widest mb-6">EXPLORE</h4>
               <ul className="space-y-3">
                 <li>
-                  <Link href="/marrakech" className="text-[#e8e5df]/70 text-sm hover:text-[#e8e5df] transition-colors">
-                    Marrakech
+                  <Link href="/city-guides" className="text-[#e8e5df]/70 text-sm hover:text-[#e8e5df] transition-colors">
+                    City Guides
                   </Link>
                 </li>
               </ul>
@@ -49,7 +49,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <Link href="/about" className="text-[#e8e5df]/70 text-sm hover:text-[#e8e5df] transition-colors">
-                    About Darb
+                    About Derb
                   </Link>
                 </li>
                 <li>
@@ -90,7 +90,7 @@ export default function Footer() {
       <div className="bg-[#2d2d2d] text-[#e8e5df]">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <p className="text-[#e8e5df]/40 text-xs">
-            © {new Date().getFullYear()} Darb. All rights reserved.
+            © {new Date().getFullYear()} Derb. All rights reserved.
           </p>
         </div>
       </div>
