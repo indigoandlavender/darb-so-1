@@ -34,10 +34,13 @@ export default async function CityGuidesPage() {
           </Link>
           <nav className="flex items-center gap-8">
             <Link href="/city-guides" className="text-sm text-foreground font-medium">
-              City Guides
+              Cities
             </Link>
             <Link href="/stories" className="text-sm text-muted-foreground hover:text-foreground/70 transition-colors">
               Stories
+            </Link>
+            <Link href="/essentials" className="text-sm text-muted-foreground hover:text-foreground/70 transition-colors">
+              Essentials
             </Link>
           </nav>
         </div>
