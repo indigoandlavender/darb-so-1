@@ -36,8 +36,8 @@ export default async function CityGuidesPage() {
             <Link href="/city-guides" className="text-sm text-foreground font-medium">
               City Guides
             </Link>
-            <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground/70 transition-colors">
-              About
+            <Link href="/stories" className="text-sm text-muted-foreground hover:text-foreground/70 transition-colors">
+              Stories
             </Link>
           </nav>
         </div>
