@@ -51,10 +51,25 @@ const categoryIcons: Record<string, string> = {
   practical: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>`,
 };
 
+// Check if WebGL is supported
+function isWebGLSupported(): boolean {
+  if (typeof window === "undefined") return true;
+  try {
+    const canvas = document.createElement("canvas");
+    return !!(
+      window.WebGLRenderingContext &&
+      (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
+    );
+  } catch (e) {
+    return false;
+  }
+}
+
 export default function Map({ center, zoom = 13, pins, categories, onPinClick }: MapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markers = useRef<mapboxgl.Marker[]>([]);
+  const [webGLSupported, setWebGLSupported] = useState(true);
   
   // Default to all known categories if none provided
   const defaultCategories = ["eat", "drink", "buy", "see", "quiet", "practical"];
@@ -65,27 +80,36 @@ export default function Map({ center, zoom = 13, pins, categories, onPinClick }:
   );
 
   useEffect(() => {
-    if (!mapContainer.current || map.current) return;
+    setWebGLSupported(isWebGLSupported());
+  }, []);
+
+  useEffect(() => {
+    if (!mapContainer.current || map.current || !webGLSupported) return;
 
     mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || "";
 
-    map.current = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: "mapbox://styles/mapbox/light-v11",
-      center: center,
-      zoom: zoom,
-    });
+    try {
+      map.current = new mapboxgl.Map({
+        container: mapContainer.current,
+        style: "mapbox://styles/mapbox/light-v11",
+        center: center,
+        zoom: zoom,
+      });
 
-    map.current.addControl(
-      new mapboxgl.NavigationControl({ showCompass: false }),
-      "top-right"
-    );
+      map.current.addControl(
+        new mapboxgl.NavigationControl({ showCompass: false }),
+        "top-right"
+      );
+    } catch (error) {
+      console.error("Failed to initialize map:", error);
+      setWebGLSupported(false);
+    }
 
     return () => {
       map.current?.remove();
       map.current = null;
     };
-  }, [center, zoom]);
+  }, [center, zoom, webGLSupported]);
 
   useEffect(() => {
     if (!map.current) return;
@@ -119,7 +143,7 @@ export default function Map({ center, zoom = 13, pins, categories, onPinClick }:
       }).setHTML(`
         <div style="padding: 16px;">
           <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: #888; margin-bottom: 4px;">${pin.Category}</p>
-          <h3 style="font-family: 'Libre Baskerville', serif; font-size: 18px; margin-bottom: 8px;">${pin.Name}</h3>
+          <h3 style="font-family: 'DM Serif Display', serif; font-size: 18px; margin-bottom: 8px;">${pin.Name}</h3>
           ${pin.Content ? `<p style="font-size: 14px; color: #666; margin-bottom: 12px;">${pin.Content}</p>` : ''}
           ${pin.Address ? `<p style="font-size: 12px; color: #888;">${pin.Address}</p>` : ''}
           ${pin.Hours ? `<p style="font-size: 12px; color: #888;">${pin.Hours}</p>` : ''}
@@ -148,6 +172,97 @@ export default function Map({ center, zoom = 13, pins, categories, onPinClick }:
       return [...prev, id];
     });
   };
+
+  // Fallback for browsers without WebGL
+  if (!webGLSupported) {
+    const filteredPins = pins.filter(pin => 
+      activeCategories.includes(pin.Category.toLowerCase())
+    );
+
+    return (
+      <div className="relative w-full h-full bg-sand">
+        <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg shadow-lg p-3 z-10">
+          <p className="text-xs uppercase tracking-wider text-muted-foreground mb-3">Filter</p>
+          <div className="flex flex-col gap-2">
+            {categories.map(category => {
+              const id = category.Category_ID.toLowerCase();
+              const isActive = activeCategories.includes(id);
+              const color = categoryColors[id] || "#888888";
+              
+              return (
+                <button
+                  key={category.Category_ID}
+                  onClick={() => toggleCategory(category.Category_ID)}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm transition-all ${
+                    isActive 
+                      ? "bg-foreground text-white" 
+                      : "bg-sand text-muted-foreground hover:bg-foreground/10"
+                  }`}
+                >
+                  <span
+                    className="w-3 h-3 rounded-full"
+                    style={{ backgroundColor: isActive ? color : "#ccc" }}
+                  />
+                  {category.Name}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="p-4 pt-48 overflow-y-auto h-full">
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-lg p-4 mb-4 text-center">
+              <p className="text-sm text-muted-foreground mb-2">
+                Your browser doesn't support interactive maps.
+              </p>
+              <p className="text-xs text-muted-foreground">
+                Try a modern browser like Chrome, Firefox, or Safari for the full experience.
+              </p>
+            </div>
+            
+            <p className="text-xs uppercase tracking-wider text-muted-foreground mb-4">
+              {filteredPins.length} places
+            </p>
+            
+            <div className="space-y-3">
+              {filteredPins.map(pin => {
+                const color = categoryColors[pin.Category.toLowerCase()] || "#888";
+                return (
+                  <div 
+                    key={pin.Pin_ID} 
+                    className="bg-white rounded-lg p-4 shadow-sm"
+                    onClick={() => onPinClick?.(pin)}
+                  >
+                    <div className="flex items-start gap-3">
+                      <span 
+                        className="w-3 h-3 rounded-full mt-1.5 flex-shrink-0"
+                        style={{ backgroundColor: color }}
+                      />
+                      <div className="flex-1 min-w-0">
+                        <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">
+                          {pin.Category}
+                        </p>
+                        <h3 className="font-serif text-lg mb-1">{pin.Name}</h3>
+                        {pin.Content && (
+                          <p className="text-sm text-muted-foreground mb-2">{pin.Content}</p>
+                        )}
+                        <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                          {pin.Address && <span>{pin.Address}</span>}
+                          {pin.Hours && <span>{pin.Hours}</span>}
+                          {pin.Price_Range && <span>{pin.Price_Range}</span>}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative w-full h-full">
