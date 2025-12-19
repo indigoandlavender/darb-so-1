@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getCities } from "@/lib/sheets";
+import Footer from "@/components/Footer";
 
 export const revalidate = 60;
 
@@ -78,14 +79,7 @@ export default async function HomePage() {
         )}
       </section>
 
-      <footer className="border-t border-foreground/10 py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="font-serif text-lg mb-2">Darb</p>
-          <p className="text-sm text-muted-foreground">
-            The path through
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
