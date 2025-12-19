@@ -4,6 +4,24 @@ import Footer from "@/components/Footer";
 
 export const revalidate = 60;
 
+// Convert Google Drive URLs to displayable format
+function convertDriveUrl(url: string): string {
+  if (!url) return "";
+  if (!url.includes("drive.google.com")) return url;
+  
+  let fileId = "";
+  const fileMatch = url.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+  if (fileMatch) fileId = fileMatch[1];
+  
+  const openMatch = url.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+  if (openMatch) fileId = openMatch[1];
+  
+  if (fileId) {
+    return `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`;
+  }
+  return url;
+}
+
 export default async function HomePage() {
   const cities = await getCities();
 
@@ -43,23 +61,34 @@ export default async function HomePage() {
             <p className="text-sm">Add cities to your Google Sheet to get started.</p>
           </div>
         ) : (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {cities.map((city) => (
               <Link
                 key={city.City_ID}
                 href={`/${city.City_ID}`}
                 className="group block"
               >
-                <div className="aspect-[4/3] bg-sand rounded-lg overflow-hidden mb-4 relative">
+                <div className="aspect-[3/4] bg-[#1a1a1a] rounded-lg overflow-hidden relative">
+                  {/* Label badge */}
+                  <div className="absolute top-0 left-0 right-0 bg-[#1a1a1a] px-4 py-3 z-10">
+                    <p className="text-[10px] tracking-[0.2em] uppercase text-white/60">
+                      Darb City Guide
+                    </p>
+                    <h3 className="font-serif text-xl text-white mt-1">
+                      {city.City_Name}
+                    </h3>
+                  </div>
+                  
+                  {/* Image */}
                   {city.Hero_Image ? (
                     <img
-                      src={city.Hero_Image}
+                      src={convertDriveUrl(city.Hero_Image)}
                       alt={city.City_Name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
+                    <div className="w-full h-full flex items-center justify-center bg-[#2563eb]">
+                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1" className="opacity-30">
                         <circle cx="12" cy="12" r="10" />
                         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                         <path d="M2 12h20" />
@@ -67,12 +96,6 @@ export default async function HomePage() {
                     </div>
                   )}
                 </div>
-                <h3 className="font-serif text-xl mb-1 group-hover:underline">
-                  {city.City_Name}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {city.Country}
-                </p>
               </Link>
             ))}
           </div>
