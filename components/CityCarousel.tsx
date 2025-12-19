@@ -88,7 +88,7 @@ export default function CityCarousel({ cities }: { cities: City[] }) {
             href={`/${city.City_ID}`}
             className="group block flex-shrink-0 w-64 snap-start"
           >
-            <div className="aspect-[3/4] rounded-lg overflow-hidden relative">
+            <div className="aspect-[3/4] rounded-lg overflow-hidden relative border-2 border-[#1a1a1a]">
               {/* Full bleed image */}
               {city.Hero_Image ? (
                 <img
