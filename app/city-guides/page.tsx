@@ -68,7 +68,7 @@ export default async function CityGuidesPage() {
                 href={`/${city.City_ID}`}
                 className="group block"
               >
-                <div className="aspect-[3/4] rounded-lg overflow-hidden relative border-2 border-[#1a1a1a]">
+                <div className="aspect-[3/4] rounded-lg overflow-hidden relative border-4 border-black">
                   {/* Full bleed image */}
                   {city.Hero_Image ? (
                     <img
