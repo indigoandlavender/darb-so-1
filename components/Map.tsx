@@ -34,12 +34,12 @@ interface MapProps {
 }
 
 const categoryColors: Record<string, string> = {
-  eat: "#c17f59",
-  drink: "#7c9885",
-  buy: "#b8860b",
-  see: "#6b8cae",
-  quiet: "#9b8aa6",
-  practical: "#888888",
+  eat: "#d4644a",
+  drink: "#2d7d6f",
+  buy: "#c49a3d",
+  see: "#4a6fa5",
+  quiet: "#7b6b8d",
+  practical: "#5c5c5c",
 };
 
 const categoryIcons: Record<string, string> = {

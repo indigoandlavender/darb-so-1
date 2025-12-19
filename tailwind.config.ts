@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#faf8f5",
-        foreground: "#1a1a1a",
-        sand: "#f5f0e8",
-        cream: "#faf8f5",
-        olive: "#4a5043",
+        background: "#f7f6f3",
+        foreground: "#1c1c1c",
+        sand: "#edeae4",
+        cream: "#f7f6f3",
+        accent: "#2d7d6f",
         muted: {
-          DEFAULT: "#f0ebe3",
-          foreground: "#6b6b6b",
+          DEFAULT: "#e8e5df",
+          foreground: "#5a5a5a",
         },
       },
       fontFamily: {
