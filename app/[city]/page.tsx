@@ -6,20 +6,21 @@ import CityMap from "./CityMap";
 export const revalidate = 60;
 
 interface PageProps {
-  params: { city: string };
+  params: Promise<{ city: string }>;
 }
 
 export default async function CityPage({ params }: PageProps) {
-  const city = await getCity(params.city);
+  const { city: cityId } = await params;
+  const city = await getCity(cityId);
   
   if (!city) {
     notFound();
   }
 
   const [pins, categories, neighborhoods] = await Promise.all([
-    getPins(params.city),
+    getPins(cityId),
     getCategories(),
-    getNeighborhoods(params.city),
+    getNeighborhoods(cityId),
   ]);
 
   const center: [number, number] = [
