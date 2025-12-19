@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #faf8f5;
-  --foreground: #1a1a1a;
+  --background: #f7f6f3;
+  --foreground: #1c1c1c;
 }
 
 body {
@@ -68,12 +68,12 @@ body {
   color: white;
 }
 
-.marker-eat { background: #c17f59; }
-.marker-drink { background: #7c9885; }
-.marker-buy { background: #b8860b; }
-.marker-see { background: #6b8cae; }
-.marker-quiet { background: #9b8aa6; }
-.marker-practical { background: #888888; }
+.marker-eat { background: #d4644a; }
+.marker-drink { background: #2d7d6f; }
+.marker-buy { background: #c49a3d; }
+.marker-see { background: #4a6fa5; }
+.marker-quiet { background: #7b6b8d; }
+.marker-practical { background: #5c5c5c; }
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
