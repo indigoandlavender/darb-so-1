@@ -69,6 +69,25 @@ function AccordionItem({ question, isOpen, onToggle }: AccordionItemProps) {
             ))}
           </div>
 
+          {/* Sources */}
+          {question.sources && question.sources.length > 0 && (
+            <div className="accordion-sources">
+              <span className="accordion-sources-label">Sources:</span>
+              {question.sources.map((source, idx) => (
+                <span key={idx}>
+                  {source.url ? (
+                    <a href={source.url} target="_blank" rel="noopener noreferrer">
+                      {source.text}
+                    </a>
+                  ) : (
+                    source.text
+                  )}
+                  {idx < question.sources!.length - 1 && ' · '}
+                </span>
+              ))}
+            </div>
+          )}
+
           <div className="accordion-meta">
             Last updated: {question.lastUpdated}
           </div>

@@ -244,8 +244,30 @@ a {
   font-style: italic;
 }
 
+.accordion-sources {
+  margin-top: 1.5rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.accordion-sources-label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.accordion-sources a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+
+.accordion-sources a:hover {
+  color: var(--foreground);
+}
+
 .accordion-meta {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border);
   font-size: 0.875rem;

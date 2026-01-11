@@ -17,6 +17,11 @@ export const categoryLabels: Record<Category, string> = {
   'deeper-systems': 'Deeper System Questions',
 };
 
+export interface Source {
+  text: string;
+  url?: string;
+}
+
 export interface Question {
   slug: string;
   title: string;
@@ -24,6 +29,7 @@ export interface Question {
   subtitle?: string;
   sections: Section[];
   illustrations: Illustration[];
+  sources?: Source[];
   lastUpdated: string;
 }
 

@@ -46,19 +46,28 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Level 2: Legal content from Nexus */}
+      {/* Level 2: Legal content + Language switcher */}
       <div className="footer-level-2">
         <div className="container">
-          <div className="flex flex-wrap gap-x-6 gap-y-2 text-small">
-            <a href="/privacy" className="opacity-60 hover:opacity-100 transition-opacity">
-              Privacy Policy
-            </a>
-            <a href="/terms" className="opacity-60 hover:opacity-100 transition-opacity">
-              Terms of Use
-            </a>
-            <span className="opacity-50">
-              {legal.copyright || `© ${currentYear} Derb. All rights reserved.`}
-            </span>
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-small">
+              <a href="/privacy" className="opacity-60 hover:opacity-100 transition-opacity">
+                Privacy Policy
+              </a>
+              <a href="/terms" className="opacity-60 hover:opacity-100 transition-opacity">
+                Terms of Use
+              </a>
+              <span className="opacity-50">
+                {legal.copyright || `© ${currentYear} Derb. All rights reserved.`}
+              </span>
+            </div>
+            <div className="flex gap-3 text-small">
+              <a href="/" className="opacity-100" aria-current="page">EN</a>
+              <span className="opacity-30">|</span>
+              <a href="/fr" className="opacity-50 hover:opacity-100 transition-opacity">FR</a>
+              <span className="opacity-30">|</span>
+              <a href="/ar" className="opacity-50 hover:opacity-100 transition-opacity">AR</a>
+            </div>
           </div>
         </div>
       </div>

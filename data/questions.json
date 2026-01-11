@@ -642,5 +642,81 @@
     ],
     "illustrations": [],
     "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-white-powder-on-walls",
+    "title": "Why is there white powdery stuff on the walls?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The white crystalline deposits appearing on riad walls are saltpetre (potassium nitrate) or efflorescence—mineral salts drawn to the surface by moisture movement. This is not dirt, mold, or poor maintenance. It's chemistry acting on old construction."
+      },
+      {
+        "heading": "How it forms",
+        "content": "Water inside walls dissolves natural salts present in earth, lime, and masonry. As moisture migrates toward the surface and evaporates, it leaves salts behind. These crystallize into white, powdery, sometimes fluffy deposits. The drier the air, the faster evaporation occurs, and the more visible the deposits become."
+      },
+      {
+        "heading": "Why riads are vulnerable",
+        "content": "Traditional construction used no damp-proof membranes. Buildings before 1930—and riads are centuries older—allow moisture to rise through walls from the ground. Earthen materials (pisé, adobe) and lime-based plasters contain salts naturally. The combination of porous materials, rising damp, and intense evaporation creates ideal conditions for efflorescence."
+      },
+      {
+        "heading": "Climate factors",
+        "content": "Marrakech's climate intensifies the cycle. Seasonal rains introduce moisture; hot, dry months pull it out rapidly. Each cycle deposits more salts. The walls breathe—this is why they regulate temperature so well—but breathing also means salts migrate continuously to the surface."
+      },
+      {
+        "heading": "Treatment, not elimination",
+        "content": "Saltpetre can be brushed away, but it returns unless the moisture source is addressed. Modern interventions include hydrophobic resin injection to block rising damp. However, in historic buildings, some efflorescence is simply accepted as the cost of authentic construction. The walls are working as designed; the white deposits are evidence of that work."
+      }
+    ],
+    "illustrations": [],
+    "sources": [
+      {
+        "text": "DIY Doctor: Efflorescence Causes and Cures",
+        "url": "https://www.diydoctor.org.uk/projects/efflorescence-causes-and-cures.htm"
+      },
+      {
+        "text": "Humilogic: All You Need to Know About Saltpeter on Walls",
+        "url": "https://humilogic.com/en/saltpeter-walls/"
+      }
+    ],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-riad-far-from-square",
+    "title": "Why is my riad so far from Jemaa el-Fna?",
+    "category": "movement-perception",
+    "sections": [
+      {
+        "content": "The Marrakech medina contains over 1,000 riads and guesthouses spread across multiple distinct neighborhoods. Jemaa el-Fna is one point in a large urban fabric—not the center of everything."
+      },
+      {
+        "heading": "Scale of the medina",
+        "content": "The historic medina covers approximately 600 hectares within its walls. Walking from one edge to another can take 40 minutes or more. Riads exist throughout this area—near souks, near neighborhood mosques, near tanneries, near gates. Jemaa el-Fna is the tourist focal point, but it's not where most of the medina's residential and commercial life happens."
+      },
+      {
+        "heading": "The 1,000+ riad reality",
+        "content": "Estimates place the number of riads and guesthouses in the medina between 800 and 1,200. Only a fraction of these are within five minutes of the main square. Many excellent riads are 15, 20, or 30 minutes' walk away—which means you're staying in an actual neighborhood, not in a tourist zone."
+      },
+      {
+        "heading": "Walking times are real",
+        "content": "A riad in the northern medina (near Bab Doukkala) or the southern quarters (near the Mellah) may require 20-40 minutes to reach Jemaa el-Fna on foot. This is not misrepresentation; it's geography. The medina is large. Walking is the only way to move through most of it. Taxis can only reach the edges, at the gates (babs) in the walls."
+      },
+      {
+        "heading": "What distance offers",
+        "content": "Distance from the square often means quieter nights, more authentic neighborhood life, and lower prices. You trade convenience for calm. Some travelers prefer to be in the center of activity; others prefer to retreat from it. Both are valid—but understanding the medina's scale prevents surprise."
+      }
+    ],
+    "illustrations": [],
+    "sources": [
+      {
+        "text": "UNESCO World Heritage: Medina of Marrakesh",
+        "url": "https://whc.unesco.org/en/list/331/"
+      },
+      {
+        "text": "Marrakech Riads: Guesthouses in the Medina",
+        "url": "https://marrakech-riads.com/en/riad-marrakech-medina/"
+      }
+    ],
+    "lastUpdated": "2025-01"
   }
 ]
