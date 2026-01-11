@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "why-are-there-cockroaches",
+    "title": "Why are there cockroaches in Marrakech?",
+    "subtitle": "Climate, infrastructure, and the ecology of an ancient city",
+    "sections": [
+      {
+        "content": "Cockroaches exist in Marrakech for the same reason they exist in every warm, densely-built city on Earth: the conditions are ideal. This is not a failure of cleanliness. It is a consequence of climate, architecture, and urban density that predates modern plumbing by several centuries."
+      },
+      {
+        "heading": "Climate factors",
+        "content": "Marrakech sits at the edge of the Sahara. Summer temperatures regularly exceed 40°C. Humidity, while lower than coastal cities, rises significantly at night. These conditions—warm, with pockets of moisture—are precisely what cockroaches require to thrive. The species common to Marrakech (Periplaneta americana, the American cockroach, and Blattella germanica, the German cockroach) evolved in tropical environments and have colonized warm-climate cities worldwide."
+      },
+      {
+        "heading": "Architectural conditions",
+        "content": "The medina is a continuous urban mass. Buildings share walls. Courtyards connect through drainage channels. The sewer system, where it exists, dates from multiple eras and connects properties in ways that are not always mapped or understood. This interconnection means that cockroaches move freely between buildings through infrastructure that humans cannot easily access or seal. A single property cannot truly isolate itself from its neighbors."
+      },
+      {
+        "heading": "Water and waste systems",
+        "content": "Traditional riads drain to central points. Greywater from kitchens and bathrooms flows through channels that may be shared between properties. These channels provide moisture, organic matter, and protected pathways—exactly what cockroach populations need. Modern retrofitting often improves but cannot eliminate these pathways. The medina was not designed with pest exclusion in mind. It was designed for human habitation in a hot climate, and the same features that make it comfortable for humans make it comfortable for certain insects."
+      },
+      {
+        "heading": "What this means in practice",
+        "content": "Seeing a cockroach in Marrakech does not indicate poor hygiene in that specific building. It indicates that the building exists in an ecosystem where cockroaches are endemic. Professional pest management reduces populations but cannot eliminate them entirely from an interconnected urban fabric. This is true of Barcelona, Cairo, New Orleans, and every other warm-climate city with pre-modern infrastructure. Marrakech is not unusual. It is typical."
+      }
+    ],
+    "illustrations": [
+      {
+        "id": "drainage-paths",
+        "caption": "Simplified diagram of interconnected drainage between medina properties",
+        "afterSection": 2
+      },
+      {
+        "id": "temperature-zones",
+        "caption": "Temperature and humidity gradients in a traditional riad cross-section",
+        "afterSection": 1
+      }
+    ],
+    "lastUpdated": "2024-12"
+  },
+  {
+    "slug": "why-do-bathrooms-smell",
+    "title": "Why do bathrooms sometimes smell in old houses?",
+    "subtitle": "Plumbing systems, trap design, and the physics of sewer gas",
+    "sections": [
+      {
+        "content": "Bathroom odors in traditional Marrakech houses are almost always caused by one thing: the failure of water traps to maintain a seal against sewer gases. This is a plumbing problem with a straightforward explanation, not a hygiene issue."
+      },
+      {
+        "heading": "How water traps work",
+        "content": "Every drain in a modern plumbing system includes a water trap—a U-shaped bend that holds standing water. This water acts as a seal, preventing gases from the sewer system from rising back through the drain into the room. The system is simple and effective, but it requires two conditions: the trap must be correctly installed, and it must remain filled with water."
+      },
+      {
+        "heading": "Why traps fail in Marrakech",
+        "content": "In a hot, dry climate, water evaporates. A floor drain or secondary bathroom that goes unused for several days will lose its water seal. Once the trap is dry, sewer gases flow freely into the room. This is especially common in guest bathrooms, seasonal properties, or buildings that sit empty between visitors. The solution is simple: run water through every drain regularly. A few seconds of flow every few days maintains the seal."
+      },
+      {
+        "heading": "Retrofitted plumbing",
+        "content": "Many riads were built centuries before indoor plumbing existed. When bathrooms were added—often in the 20th century—plumbing was fitted into spaces not designed for it. Drain runs may be longer than ideal, connections may be improvised, and venting may be incomplete or absent. Without proper venting, water flowing through one drain can create suction that pulls water from another trap, breaking the seal. These are technical problems, not cultural ones. They exist in retrofitted buildings worldwide."
+      },
+      {
+        "heading": "The role of the sewer system",
+        "content": "The medina's sewer system is a layered artifact of different eras. Some sections are centuries old. Others were installed under the French Protectorate. More recent renovations add modern pipes that connect to older infrastructure. At connection points, gases can migrate in ways that would not occur in a purpose-built system. Heavy rain can overwhelm capacity and cause temporary pressure changes. This is infrastructure under continuous adaptation, not a unified design."
+      }
+    ],
+    "illustrations": [
+      {
+        "id": "water-trap",
+        "caption": "Cross-section of a water trap showing the seal mechanism",
+        "afterSection": 1
+      },
+      {
+        "id": "evaporation-cycle",
+        "caption": "Water loss from an unused drain over time in dry conditions",
+        "afterSection": 2
+      }
+    ],
+    "lastUpdated": "2024-12"
+  },
+  {
+    "slug": "why-so-many-cats",
+    "title": "Why are there so many cats?",
+    "subtitle": "Urban ecology, Islamic tradition, and pest control",
+    "sections": [
+      {
+        "content": "Marrakech has a large population of street cats. They are visible everywhere—on rooftops, in markets, outside restaurants, in riads. This is not an accident or a problem of animal control. It is the result of cultural practice, urban ecology, and a functional relationship between humans and cats that has existed for centuries."
+      },
+      {
+        "heading": "The Islamic context",
+        "content": "In Islamic tradition, cats hold a respected position. The Prophet Muhammad is recorded as having treated cats with kindness, and hadith literature includes multiple references to their cleanliness and the merit of caring for them. Harming cats is discouraged. This cultural framework means that cats in Morocco are generally tolerated, fed, and allowed to exist in human spaces without systematic removal. It is not that people keep cats as pets in the Western sense—it is that cats are permitted to share the urban environment."
+      },
+      {
+        "heading": "The ecological function",
+        "content": "Cats in Marrakech serve a purpose: they control rodent populations. In a dense urban environment with open markets, food waste, and interconnected buildings, rodents would otherwise proliferate. Cats occupy this niche naturally. They hunt at night in the same spaces where rats and mice would otherwise thrive. This is not romantic—it is functional. The cat population exists in rough equilibrium with available food sources, including both rodent prey and scraps provided by humans."
+      },
+      {
+        "heading": "Feeding and territory",
+        "content": "Many residents and businesses feed cats regularly. This is often done quietly, without ceremony—a dish of scraps left in an alley, or fish heads from a market stall. The cats that live in a particular area form loose colonies with established territories. They know where food appears and when. They are not feral in the sense of being completely wild. They are street cats: habituated to humans, dependent on the urban environment, but not owned or managed by any individual."
+      },
+      {
+        "heading": "Health and population",
+        "content": "Street cat populations are subject to natural regulation: disease, competition, accidents, and limited food in lean periods. Some NGOs conduct trap-neuter-return programs to manage populations without culling. Veterinary interventions are limited but increasing. The cats visitors see are generally healthy because unhealthy cats do not survive long in this environment. What appears to be an overwhelming number of cats is actually a population roughly sized to the resources available."
+      }
+    ],
+    "illustrations": [
+      {
+        "id": "cat-territory",
+        "caption": "Typical cat colony territories in a medina quarter",
+        "afterSection": 2
+      },
+      {
+        "id": "food-chain",
+        "caption": "Position of cats in the urban food chain of the medina",
+        "afterSection": 1
+      }
+    ],
+    "lastUpdated": "2024-12"
+  },
+  {
+    "slug": "why-is-noise-unpredictable",
+    "title": "Why is noise unpredictable?",
+    "subtitle": "Sound propagation, daily rhythms, and acoustic architecture",
+    "sections": [
+      {
+        "content": "Noise in Marrakech follows patterns that can seem random to visitors but are actually structured by architecture, daily practice, and the physics of sound in dense urban space. Understanding these patterns does not make noise disappear, but it explains why silence and sound alternate in ways that feel arbitrary."
+      },
+      {
+        "heading": "The architecture of sound",
+        "content": "The medina is built for thermal regulation, not acoustic isolation. Walls are thick to retain cool air, but they are also shared between properties. Courtyards amplify sound vertically—a conversation at ground level carries clearly to upper floors. Narrow streets create canyon effects that channel noise directionally. Sound behaves differently here than in buildings designed with acoustic separation as a priority. What happens in one building is often audible in adjacent ones."
+      },
+      {
+        "heading": "Daily rhythms",
+        "content": "The city operates on patterns that differ from European norms. The call to prayer sounds five times daily, beginning before dawn. Markets open early and close for the heat of midday in summer. Evenings are active until late. Construction often begins at first light. These are not arbitrary disturbances—they are the scheduled activities of a functioning city. The issue is not that Marrakech is noisy. It is that the schedule of activity differs from what visitors may expect."
+      },
+      {
+        "heading": "Unpredictable events",
+        "content": "Some noise sources genuinely are unpredictable: weddings, festivals, and celebrations that occur on rooftops or in courtyards. A wedding in a neighboring house can mean music until the early hours. This is not discouraged culturally—celebrations are a normal part of community life. Religious and national holidays bring their own patterns: extended activity during Ramadan nights, celebrations for Aid, and local moussems (festivals) that visitors may not know about in advance."
+      },
+      {
+        "heading": "Sound as information",
+        "content": "In a city where streets are narrow and visibility is limited, sound carries information. Vendors call their presence. Motorcycles use horns continuously as spatial signals, not expressions of frustration. The call to prayer marks time. Silence often indicates the absence of people, not peace. For residents, these sounds are orientation cues. For visitors, they register as noise because the information is not needed or understood."
+      }
+    ],
+    "illustrations": [
+      {
+        "id": "sound-propagation",
+        "caption": "Sound paths in a typical courtyard arrangement",
+        "afterSection": 0
+      },
+      {
+        "id": "daily-rhythm",
+        "caption": "Typical noise patterns across a 24-hour period",
+        "afterSection": 1
+      }
+    ],
+    "lastUpdated": "2024-12"
+  }
+]
