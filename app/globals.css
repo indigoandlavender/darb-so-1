@@ -154,3 +154,38 @@ a {
   background: var(--accent);
   color: var(--background);
 }
+
+/* 3-Level Ombre Footer */
+.footer-ombre {
+  margin-top: auto;
+}
+
+.footer-level-1 {
+  background: color-mix(in srgb, var(--foreground) 3%, var(--background));
+  padding: 3rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.footer-level-2 {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--background));
+  padding: 1.5rem 0;
+}
+
+.footer-level-3 {
+  background: color-mix(in srgb, var(--foreground) 10%, var(--background));
+  padding: 1rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-level-1 {
+    background: color-mix(in srgb, var(--foreground) 3%, var(--background));
+  }
+
+  .footer-level-2 {
+    background: color-mix(in srgb, var(--foreground) 5%, var(--background));
+  }
+
+  .footer-level-3 {
+    background: color-mix(in srgb, var(--foreground) 8%, var(--background));
+  }
+}

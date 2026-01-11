@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://derb.so"),
@@ -51,32 +52,7 @@ export default function RootLayout({
           <main className="flex-1 py-12 md:py-16">
             {children}
           </main>
-          <footer className="py-12 border-t border-border">
-            <div className="container">
-              <div className="space-y-6">
-                <div className="max-w-prose">
-                  <h4 className="text-small font-medium mb-2 text-muted uppercase tracking-wide">Methodology</h4>
-                  <p className="text-small text-muted">
-                    Derb is an independent urban reference. Content is based on direct observation, 
-                    consultation with local residents, and research into urban infrastructure systems. 
-                    This is not a travel guide. It explains systems, not experiences.
-                  </p>
-                </div>
-                <div className="pt-6 border-t border-border">
-                  <p className="text-small text-muted">
-                    Produced by the team behind{" "}
-                    <a href="https://riaddelasiena.com" className="border-b border-border hover:border-muted transition-colors">
-                      Riad di Siena
-                    </a>
-                    {" / "}
-                    <a href="https://slowmorocco.com" className="border-b border-border hover:border-muted transition-colors">
-                      Slow Morocco
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </footer>
+          <Footer />
         </div>
       </body>
     </html>
