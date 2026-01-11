@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Question } from '@/lib/types';
+import { Question, Category, categoryLabels } from '@/lib/types';
 import { Illustration } from './Illustration';
 
 interface AccordionProps {
@@ -79,21 +79,38 @@ function AccordionItem({ question, isOpen, onToggle }: AccordionItemProps) {
 }
 
 export default function Accordion({ questions }: AccordionProps) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openSlug, setOpenSlug] = useState<string | null>(null);
 
-  const handleToggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const handleToggle = (slug: string) => {
+    setOpenSlug(openSlug === slug ? null : slug);
   };
 
+  // Group questions by category
+  const categories = Object.keys(categoryLabels) as Category[];
+  const questionsByCategory = categories
+    .map((category) => ({
+      category,
+      label: categoryLabels[category],
+      questions: questions.filter((q) => q.category === category),
+    }))
+    .filter((group) => group.questions.length > 0);
+
   return (
-    <div className="accordion">
-      {questions.map((question, index) => (
-        <AccordionItem
-          key={question.slug}
-          question={question}
-          isOpen={openIndex === index}
-          onToggle={() => handleToggle(index)}
-        />
+    <div className="accordion-groups">
+      {questionsByCategory.map((group) => (
+        <div key={group.category} className="accordion-group">
+          <h3 className="accordion-group-title">{group.label}</h3>
+          <div className="accordion">
+            {group.questions.map((question) => (
+              <AccordionItem
+                key={question.slug}
+                question={question}
+                isOpen={openSlug === question.slug}
+                onToggle={() => handleToggle(question.slug)}
+              />
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   );

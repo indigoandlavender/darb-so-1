@@ -8,7 +8,7 @@
  * 4. Replace the import in lib/questions.ts
  */
 
-import { Question, Section, Illustration } from "./types";
+import { Question, Section, Illustration, Category } from "./types";
 
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
@@ -73,6 +73,7 @@ export async function fetchQuestionsFromSheets(): Promise<Question[]> {
     return {
       slug: q.slug,
       title: q.title,
+      category: (q.category || 'everyday-urban-reality') as Category,
       subtitle: q.subtitle || undefined,
       sections,
       illustrations,

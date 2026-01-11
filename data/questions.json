@@ -1,158 +1,646 @@
 [
   {
-    "slug": "why-are-there-cockroaches",
-    "title": "Why are there cockroaches in Marrakech?",
-    "subtitle": "Climate, infrastructure, and the ecology of an ancient city",
+    "slug": "why-streets-feel-narrower",
+    "title": "Why do medina streets feel narrower than the map suggests?",
+    "category": "everyday-urban-reality",
     "sections": [
       {
-        "content": "Cockroaches exist in Marrakech for the same reason they exist in every warm, densely-built city on Earth: the conditions are ideal. This is not a failure of cleanliness. It is a consequence of climate, architecture, and urban density that predates modern plumbing by several centuries."
+        "content": "Maps show distance. They don't show texture, shadow, or the compression of attention. A medina street that measures three meters wide can feel like one meter when walls rise four stories, when overhangs block sky, when goods spill from doorways, and when you're navigating around people, carts, and motorcycles simultaneously."
       },
       {
-        "heading": "Climate factors",
-        "content": "Marrakech sits at the edge of the Sahara. Summer temperatures regularly exceed 40°C. Humidity, while lower than coastal cities, rises significantly at night. These conditions—warm, with pockets of moisture—are precisely what cockroaches require to thrive. The species common to Marrakech (Periplaneta americana, the American cockroach, and Blattella germanica, the German cockroach) evolved in tropical environments and have colonized warm-climate cities worldwide."
+        "heading": "Vertical compression",
+        "content": "Traditional medina construction maximizes shade. Buildings lean inward at upper floors. Covered passages (sabats) bridge streets entirely. The ratio of height to width creates a canyon effect that European cities rarely replicate. Your peripheral vision fills with wall, not sky."
       },
       {
-        "heading": "Architectural conditions",
-        "content": "The medina is a continuous urban mass. Buildings share walls. Courtyards connect through drainage channels. The sewer system, where it exists, dates from multiple eras and connects properties in ways that are not always mapped or understood. This interconnection means that cockroaches move freely between buildings through infrastructure that humans cannot easily access or seal. A single property cannot truly isolate itself from its neighbors."
-      },
-      {
-        "heading": "Water and waste systems",
-        "content": "Traditional riads drain to central points. Greywater from kitchens and bathrooms flows through channels that may be shared between properties. These channels provide moisture, organic matter, and protected pathways—exactly what cockroach populations need. Modern retrofitting often improves but cannot eliminate these pathways. The medina was not designed with pest exclusion in mind. It was designed for human habitation in a hot climate, and the same features that make it comfortable for humans make it comfortable for certain insects."
-      },
-      {
-        "heading": "What this means in practice",
-        "content": "Seeing a cockroach in Marrakech does not indicate poor hygiene in that specific building. It indicates that the building exists in an ecosystem where cockroaches are endemic. Professional pest management reduces populations but cannot eliminate them entirely from an interconnected urban fabric. This is true of Barcelona, Cairo, New Orleans, and every other warm-climate city with pre-modern infrastructure. Marrakech is not unusual. It is typical."
+        "heading": "Horizontal clutter",
+        "content": "The street is not just circulation space. It's storage, display, workspace, and social room. A nominally three-meter passage becomes a one-meter navigable channel between stacked goods, seated craftsmen, and parked motorcycles. The map shows the container. You experience what's left after everything else claims its share."
       }
     ],
-    "illustrations": [
-      {
-        "id": "drainage-paths",
-        "caption": "Simplified diagram of interconnected drainage between medina properties",
-        "afterSection": 2
-      },
-      {
-        "id": "temperature-zones",
-        "caption": "Temperature and humidity gradients in a traditional riad cross-section",
-        "afterSection": 1
-      }
-    ],
-    "lastUpdated": "2024-12"
+    "illustrations": [],
+    "lastUpdated": "2025-01"
   },
   {
-    "slug": "why-do-bathrooms-smell",
-    "title": "Why do bathrooms sometimes smell in old houses?",
-    "subtitle": "Plumbing systems, trap design, and the physics of sewer gas",
+    "slug": "why-hotter-slower-louder",
+    "title": "Why does Marrakech feel hotter, slower, and louder than other cities?",
+    "category": "everyday-urban-reality",
     "sections": [
       {
-        "content": "Bathroom odors in traditional Marrakech houses are almost always caused by one thing: the failure of water traps to maintain a seal against sewer gases. This is a plumbing problem with a straightforward explanation, not a hygiene issue."
+        "content": "Marrakech sits at the edge of the Sahara, at 450 meters elevation, surrounded by the High Atlas. Summer temperatures exceed 45°C. The city's rhythm adapts to this reality, not to your schedule."
       },
       {
-        "heading": "How water traps work",
-        "content": "Every drain in a modern plumbing system includes a water trap—a U-shaped bend that holds standing water. This water acts as a seal, preventing gases from the sewer system from rising back through the drain into the room. The system is simple and effective, but it requires two conditions: the trap must be correctly installed, and it must remain filled with water."
+        "heading": "Heat shapes everything",
+        "content": "When outdoor temperatures become dangerous, activity retreats indoors or into shade. The midday lull isn't laziness—it's thermal survival. Evening becomes the productive time. The city genuinely wakes after sunset because that's when human activity becomes physically sustainable."
       },
       {
-        "heading": "Why traps fail in Marrakech",
-        "content": "In a hot, dry climate, water evaporates. A floor drain or secondary bathroom that goes unused for several days will lose its water seal. Once the trap is dry, sewer gases flow freely into the room. This is especially common in guest bathrooms, seasonal properties, or buildings that sit empty between visitors. The solution is simple: run water through every drain regularly. A few seconds of flow every few days maintains the seal."
-      },
-      {
-        "heading": "Retrofitted plumbing",
-        "content": "Many riads were built centuries before indoor plumbing existed. When bathrooms were added—often in the 20th century—plumbing was fitted into spaces not designed for it. Drain runs may be longer than ideal, connections may be improvised, and venting may be incomplete or absent. Without proper venting, water flowing through one drain can create suction that pulls water from another trap, breaking the seal. These are technical problems, not cultural ones. They exist in retrofitted buildings worldwide."
-      },
-      {
-        "heading": "The role of the sewer system",
-        "content": "The medina's sewer system is a layered artifact of different eras. Some sections are centuries old. Others were installed under the French Protectorate. More recent renovations add modern pipes that connect to older infrastructure. At connection points, gases can migrate in ways that would not occur in a purpose-built system. Heavy rain can overwhelm capacity and cause temporary pressure changes. This is infrastructure under continuous adaptation, not a unified design."
+        "heading": "Sound accumulates differently",
+        "content": "Dense construction, hard surfaces, and narrow streets create acoustic environments that absorb nothing. Sound bounces and compounds. A motorcycle in an alley registers like a motorcycle in your room. The call to prayer from five nearby mosques arrives as overlapping waves, not a single signal."
       }
     ],
-    "illustrations": [
-      {
-        "id": "water-trap",
-        "caption": "Cross-section of a water trap showing the seal mechanism",
-        "afterSection": 1
-      },
-      {
-        "id": "evaporation-cycle",
-        "caption": "Water loss from an unused drain over time in dry conditions",
-        "afterSection": 2
-      }
-    ],
-    "lastUpdated": "2024-12"
+    "illustrations": [],
+    "lastUpdated": "2025-01"
   },
   {
-    "slug": "why-so-many-cats",
-    "title": "Why are there so many cats?",
-    "subtitle": "Urban ecology, Islamic tradition, and pest control",
+    "slug": "why-silence-sounds-different",
+    "title": "Why does silence sound different here than at home?",
+    "category": "everyday-urban-reality",
     "sections": [
       {
-        "content": "Marrakech has a large population of street cats. They are visible everywhere—on rooftops, in markets, outside restaurants, in riads. This is not an accident or a problem of animal control. It is the result of cultural practice, urban ecology, and a functional relationship between humans and cats that has existed for centuries."
+        "content": "What you call silence at home is actually the hum of insulation, sealed windows, HVAC systems, and sound-absorbing materials. Here, silence means the absence of human activity, not the presence of acoustic engineering."
       },
       {
-        "heading": "The Islamic context",
-        "content": "In Islamic tradition, cats hold a respected position. The Prophet Muhammad is recorded as having treated cats with kindness, and hadith literature includes multiple references to their cleanliness and the merit of caring for them. Harming cats is discouraged. This cultural framework means that cats in Morocco are generally tolerated, fed, and allowed to exist in human spaces without systematic removal. It is not that people keep cats as pets in the Western sense—it is that cats are permitted to share the urban environment."
+        "heading": "Materials don't absorb",
+        "content": "Tadelakt, zellige, concrete, and plaster reflect sound. Carpets are decorative, not acoustic. Windows are single-pane or absent. The building envelope is porous. When sound stops, you hear the building itself: the settling of old wood, water in distant pipes, pigeons on the roof."
       },
       {
-        "heading": "The ecological function",
-        "content": "Cats in Marrakech serve a purpose: they control rodent populations. In a dense urban environment with open markets, food waste, and interconnected buildings, rodents would otherwise proliferate. Cats occupy this niche naturally. They hunt at night in the same spaces where rats and mice would otherwise thrive. This is not romantic—it is functional. The cat population exists in rough equilibrium with available food sources, including both rodent prey and scraps provided by humans."
-      },
-      {
-        "heading": "Feeding and territory",
-        "content": "Many residents and businesses feed cats regularly. This is often done quietly, without ceremony—a dish of scraps left in an alley, or fish heads from a market stall. The cats that live in a particular area form loose colonies with established territories. They know where food appears and when. They are not feral in the sense of being completely wild. They are street cats: habituated to humans, dependent on the urban environment, but not owned or managed by any individual."
-      },
-      {
-        "heading": "Health and population",
-        "content": "Street cat populations are subject to natural regulation: disease, competition, accidents, and limited food in lean periods. Some NGOs conduct trap-neuter-return programs to manage populations without culling. Veterinary interventions are limited but increasing. The cats visitors see are generally healthy because unhealthy cats do not survive long in this environment. What appears to be an overwhelming number of cats is actually a population roughly sized to the resources available."
+        "heading": "Night silence is different",
+        "content": "At 3am, medina silence has texture. You hear the absence of motorcycles, the distant bark of a dog, the murmur of a television through a wall. This is not the sealed quiet of a modern apartment. It's the silence of a city sleeping with its windows open."
       }
     ],
-    "illustrations": [
-      {
-        "id": "cat-territory",
-        "caption": "Typical cat colony territories in a medina quarter",
-        "afterSection": 2
-      },
-      {
-        "id": "food-chain",
-        "caption": "Position of cats in the urban food chain of the medina",
-        "afterSection": 1
-      }
-    ],
-    "lastUpdated": "2024-12"
+    "illustrations": [],
+    "lastUpdated": "2025-01"
   },
   {
-    "slug": "why-is-noise-unpredictable",
-    "title": "Why is noise unpredictable?",
-    "subtitle": "Sound propagation, daily rhythms, and acoustic architecture",
+    "slug": "why-riads-feel-cooler",
+    "title": "Why do riads feel cooler inside than outside, even without AC?",
+    "category": "everyday-urban-reality",
     "sections": [
       {
-        "content": "Noise in Marrakech follows patterns that can seem random to visitors but are actually structured by architecture, daily practice, and the physics of sound in dense urban space. Understanding these patterns does not make noise disappear, but it explains why silence and sound alternate in ways that feel arbitrary."
+        "content": "The riad is a climate machine designed over centuries. It works through mass, geometry, water, and airflow—not electricity."
       },
       {
-        "heading": "The architecture of sound",
-        "content": "The medina is built for thermal regulation, not acoustic isolation. Walls are thick to retain cool air, but they are also shared between properties. Courtyards amplify sound vertically—a conversation at ground level carries clearly to upper floors. Narrow streets create canyon effects that channel noise directionally. Sound behaves differently here than in buildings designed with acoustic separation as a priority. What happens in one building is often audible in adjacent ones."
+        "heading": "Thermal mass",
+        "content": "Thick earthen walls absorb heat slowly during the day and release it slowly at night. The interior temperature lags the exterior by hours. When it's 42°C outside at 2pm, walls that absorbed coolness overnight might still register 26°C on their inner surface."
       },
       {
-        "heading": "Daily rhythms",
-        "content": "The city operates on patterns that differ from European norms. The call to prayer sounds five times daily, beginning before dawn. Markets open early and close for the heat of midday in summer. Evenings are active until late. Construction often begins at first light. These are not arbitrary disturbances—they are the scheduled activities of a functioning city. The issue is not that Marrakech is noisy. It is that the schedule of activity differs from what visitors may expect."
+        "heading": "Courtyard dynamics",
+        "content": "The central courtyard creates a microclimate. Hot air rises and escapes upward. Cooler air, especially at night, sinks into the courtyard and flows into surrounding rooms. A fountain or pool adds evaporative cooling—water absorbing heat as it evaporates, lowering air temperature by several degrees."
       },
       {
-        "heading": "Unpredictable events",
-        "content": "Some noise sources genuinely are unpredictable: weddings, festivals, and celebrations that occur on rooftops or in courtyards. A wedding in a neighboring house can mean music until the early hours. This is not discouraged culturally—celebrations are a normal part of community life. Religious and national holidays bring their own patterns: extended activity during Ramadan nights, celebrations for Aid, and local moussems (festivals) that visitors may not know about in advance."
-      },
-      {
-        "heading": "Sound as information",
-        "content": "In a city where streets are narrow and visibility is limited, sound carries information. Vendors call their presence. Motorcycles use horns continuously as spatial signals, not expressions of frustration. The call to prayer marks time. Silence often indicates the absence of people, not peace. For residents, these sounds are orientation cues. For visitors, they register as noise because the information is not needed or understood."
+        "heading": "Shade geometry",
+        "content": "The courtyard is sized so that direct sun reaches the floor only briefly at midday in summer. Galleries and overhangs shade walls most of the day. The building protects itself from its own climate."
       }
     ],
-    "illustrations": [
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-shopkeepers-shout-then-ignore",
+    "title": "Why do shopkeepers shout but then ignore you when you enter?",
+    "category": "everyday-urban-reality",
+    "sections": [
       {
-        "id": "sound-propagation",
-        "caption": "Sound paths in a typical courtyard arrangement",
-        "afterSection": 0
+        "content": "The call is not a greeting. It's a signal in a marketplace economy of attention. Once you've entered, the dynamic shifts."
       },
       {
-        "id": "daily-rhythm",
-        "caption": "Typical noise patterns across a 24-hour period",
-        "afterSection": 1
+        "heading": "The call as filter",
+        "content": "Shouting from the doorway identifies who responds. Tourists hesitate or look. Locals walk past without acknowledgment. The call sorts traffic into prospects and passersby. It's efficient, not rude."
+      },
+      {
+        "heading": "Inside is different",
+        "content": "Once you're inside, the shopkeeper often retreats. This isn't neglect—it's space. Aggressive selling to someone already in the shop signals desperation. The sophisticated approach is to let you look, answer questions when asked, and begin negotiation only when you show genuine interest. Ignoring you is a form of respect for your autonomy and a signal of confidence in the goods."
       }
     ],
-    "lastUpdated": "2024-12"
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-city-wakes-after-lunch",
+    "title": "Why does the city wake up late after lunch?",
+    "category": "everyday-urban-reality",
+    "sections": [
+      {
+        "content": "The post-lunch lull isn't cultural affectation. It's thermal logic. When outdoor temperatures peak between 1pm and 4pm, reducing activity is the rational response."
+      },
+      {
+        "heading": "Heat cycles",
+        "content": "Peak heat arrives after solar noon, as accumulated thermal mass radiates back. The hottest part of the day is 2-4pm, not noon. Working through this period requires air conditioning or physical risk. Traditional commerce closes, reopens around 5pm, and continues until 9pm or later."
+      },
+      {
+        "heading": "Meal timing follows",
+        "content": "Lunch is the main meal, eaten between 1-3pm. Digestion in heat demands rest. The combination of thermal and metabolic load makes the siesta functional, not indulgent. The city restarts when both temperatures and digestion permit."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-houses-inward-facing",
+    "title": "Why are Moroccan houses inward-facing, not outward?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The street-facing blank wall is not hostile. It's a deliberate separation between public and private life, with climate and social logic both supporting the design."
+      },
+      {
+        "heading": "Privacy as architecture",
+        "content": "Islamic residential tradition emphasizes household privacy. The home is a protected interior, not a display. Windows face the courtyard, not the street. This isn't about hiding—it's about maintaining a boundary between family life and commercial or public space."
+      },
+      {
+        "heading": "Climate logic",
+        "content": "Street-facing windows would admit noise, dust, heat, and direct sun. The courtyard provides light, air, and outlook without these costs. The blank exterior wall is also the thickest, providing maximum thermal mass against the hottest exposure."
+      },
+      {
+        "heading": "Security through opacity",
+        "content": "A house that reveals nothing from outside offers nothing to assess. Wealth, occupancy, and vulnerability are invisible. This was practical in historical contexts of instability and remains practical in dense urban environments."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-streets-end-in-walls",
+    "title": "Why do so many streets end in walls or dead ends?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The dead-end street (derb) isn't failed planning. It's a different kind of planning entirely—one that prioritizes neighborhood over circulation."
+      },
+      {
+        "heading": "Residential logic",
+        "content": "A derb serves only the households on it. Through-traffic is impossible. This creates a semi-private street where children play, neighbors gather, and strangers are immediately visible. The dead end is a security feature, not a planning error."
+      },
+      {
+        "heading": "Organic growth",
+        "content": "Medinas grew by accretion, not by plan. Each house was built to serve its household, with access as needed. The resulting network optimizes for residential privacy and commercial access along main arteries, not for automotive through-traffic that didn't exist when the city was built."
+      },
+      {
+        "heading": "Legibility for locals",
+        "content": "Residents don't need through-routes. They know which derb leads where. The complexity that confuses visitors protects residents from unwanted traffic—foot, vehicle, or commercial. Illegibility to outsiders is a feature, not a bug."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-public-toilets-smell",
+    "title": "Why do public toilets smell a certain way?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The smell is usually not from waste itself, but from drainage infrastructure that cannot fully separate waste gases from occupied space."
+      },
+      {
+        "heading": "Trap failures",
+        "content": "Water traps—U-bends that hold water to block sewer gases—require consistent water flow. In intermittently used facilities, traps dry out. In hot climates, evaporation is faster. A dry trap is an open pipe to the sewer."
+      },
+      {
+        "heading": "Ventilation limits",
+        "content": "Modern plumbing relies on vent stacks that allow sewer gases to escape above roof level. Retrofitted facilities often lack proper venting. Gases that should exit through the roof instead migrate through the nearest available opening—which is the fixture itself."
+      },
+      {
+        "heading": "Maintenance economics",
+        "content": "Public facilities face a gap between usage intensity and maintenance resources. High traffic, limited budgets, and intermittent water supply create conditions where smells accumulate faster than intervention."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-cats-outnumber-dogs",
+    "title": "Why do cats outnumber dogs in these cities?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The cat population reflects cultural tolerance, ecological function, and urban structure. The dog population reflects different constraints."
+      },
+      {
+        "heading": "Cultural framework",
+        "content": "In Islamic tradition, cats are regarded as clean animals. The Prophet Muhammad treated cats kindly, and hadith literature establishes their positive status. Dogs, while not prohibited, carry associations with impurity in some interpretive traditions. This creates different thresholds for tolerance in public space."
+      },
+      {
+        "heading": "Ecological niche",
+        "content": "Cats control rodent populations in dense urban environments with open food systems. Markets, restaurants, and households produce waste that would otherwise support rats and mice. Cats occupy this niche naturally and are tolerated or encouraged for their function."
+      },
+      {
+        "heading": "Urban structure",
+        "content": "Cats navigate vertical space—walls, rooftops, narrow ledges. Dogs require horizontal territory. The medina's three-dimensional complexity favors cats. They can access food sources, escape routes, and sleeping spots that dogs cannot reach."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-tap-water-tastes-weird",
+    "title": "Why does tap water taste or smell weird sometimes?",
+    "category": "daily-life-infrastructure",
+    "sections": [
+      {
+        "content": "Water chemistry varies by source, treatment, and delivery infrastructure. What you taste is usually minerals or chlorine, not contamination."
+      },
+      {
+        "heading": "Mineral profiles",
+        "content": "Marrakech water comes from multiple sources—aquifers, the Tensift river system, and Atlas mountain runoff. Each has different mineral content. Seasonal variation in source mix changes the taste. High mineral content (hard water) is safe but unfamiliar to visitors from soft-water regions."
+      },
+      {
+        "heading": "Chlorine persistence",
+        "content": "Municipal treatment uses chlorine to ensure safety through the distribution network. In hot conditions, chlorine dissipates faster from stored water but remains stronger in freshly drawn supplies. Time of day and proximity to treatment affects what you smell."
+      },
+      {
+        "heading": "Building infrastructure",
+        "content": "Rooftop tanks, common in older buildings, store water that sits in heat. This can affect taste without affecting safety. Older pipes may contribute mineral or metallic notes. The building's plumbing is often older than any single occupant."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-meals-feel-later",
+    "title": "Why do meals feel later than you're used to?",
+    "category": "daily-life-infrastructure",
+    "sections": [
+      {
+        "content": "Meal timing follows heat cycles and social patterns, not clock conventions imported from different climates."
+      },
+      {
+        "heading": "Heat-adjusted scheduling",
+        "content": "Eating a large meal in peak heat is physically uncomfortable. Lunch moves to early afternoon (1-3pm) when shade is available. Dinner moves to 9pm or later, when outdoor temperatures finally break. These times seem late only relative to expectations formed elsewhere."
+      },
+      {
+        "heading": "Social meal logic",
+        "content": "The main meal is a household gathering, not a quick refuel. Preparing and eating together takes time. Starting dinner at 9pm means finishing by 10:30 or 11pm—not unreasonable when the city remains active until midnight and the next morning doesn't demand an early start."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-bread-with-everything",
+    "title": "Why do people eat bread with everything, even sweet things?",
+    "category": "daily-life-infrastructure",
+    "sections": [
+      {
+        "content": "Bread is not a side dish. It's a utensil, a filler, and a texture anchor. Its role in the meal is functional, not ceremonial."
+      },
+      {
+        "heading": "Bread as tool",
+        "content": "Traditional eating uses bread to scoop, grip, and transport food. Tagines, salads, and dips are designed for bread contact. Cutlery is optional; bread is not. This is practical technology for eating shared dishes."
+      },
+      {
+        "heading": "Caloric extension",
+        "content": "Bread extends expensive proteins and vegetables. A tagine that might serve two with forks serves four with bread. Bread makes modest quantities of flavorful food into complete meals. This is economic logic, not lack of sophistication."
+      },
+      {
+        "heading": "Textural pairing",
+        "content": "Sweet pastries and preserves with bread is textural contrast, not confusion. The chew of bread against the softness of msemen with honey, or bread with amlou (almond butter), provides satisfaction that the sweet alone doesn't deliver."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-mint-tea-tastes-different",
+    "title": "Why doesn't mint tea taste like mint tea everywhere?",
+    "category": "daily-life-infrastructure",
+    "sections": [
+      {
+        "content": "Mint tea is not a recipe. It's a practice with regional variation in ingredients, proportions, and technique."
+      },
+      {
+        "heading": "Mint varieties",
+        "content": "Moroccan mint (nana) differs from spearmint and peppermint. Seasonal variation in freshness affects flavor intensity. Winter tea often uses dried mint or different herbs (sheeba/wormwood, louiza/verbena) that shift the profile entirely."
+      },
+      {
+        "heading": "Sugar calibration",
+        "content": "Traditional preparation uses substantial sugar—far more than most visitors expect. Reduced sugar at tourist-oriented establishments changes the balance. Authentic local preparation might be sweeter than you'd make yourself."
+      },
+      {
+        "heading": "Gunpowder tea base",
+        "content": "The green tea base (Chinese gunpowder tea) varies in quality and age. Stale tea produces flat results. The ratio of tea to mint to sugar shifts regionally and personally. Each household has its own hand."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-ground-feels-warmer",
+    "title": "Why does the ground feel warmer underfoot than the air?",
+    "category": "physical-sensations",
+    "sections": [
+      {
+        "content": "Surfaces absorb and store solar radiation. They release it slowly, remaining warm hours after air temperature drops."
+      },
+      {
+        "heading": "Material heat retention",
+        "content": "Stone, tile, and concrete absorb heat throughout the day. By evening, surface temperatures can exceed air temperature by 10°C or more. Walking barefoot or in thin sandals, you feel the stored heat directly. The ground remembers the afternoon sun."
+      },
+      {
+        "heading": "Night cooling lag",
+        "content": "Air cools faster than mass. After sunset, air temperature drops while surfaces continue radiating stored heat. This creates the sensation of warm ground beneath cool air—a thermal inversion that persists until well after midnight in summer."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-heat-more-exhausting",
+    "title": "Why does heat feel more exhausting here than elsewhere?",
+    "category": "physical-sensations",
+    "sections": [
+      {
+        "content": "Heat stress depends on temperature, humidity, sun exposure, and exertion. Marrakech combines high temperatures with intense solar radiation and unfamiliar exertion patterns."
+      },
+      {
+        "heading": "Solar load",
+        "content": "Direct sun adds heat beyond air temperature. Your body receives radiation from above and from heated surfaces around you. Shade isn't just cooler—it removes a significant heat input that air temperature alone doesn't capture."
+      },
+      {
+        "heading": "Exertion differences",
+        "content": "Visitors walk more than usual, on unfamiliar surfaces, while processing new information continuously. This cognitive and physical load generates more body heat than daily routine at home. You're working harder than you realize."
+      },
+      {
+        "heading": "Adaptation takes time",
+        "content": "Acclimatization to heat requires 7-14 days. Blood plasma volume increases, sweat efficiency improves, and heart rate response moderates. In the first few days, your body works harder to achieve the same cooling. Exhaustion is physiological, not weakness."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-cockroaches-in-clean-places",
+    "title": "Why do cockroaches show up even in clean places?",
+    "category": "physical-sensations",
+    "sections": [
+      {
+        "content": "Cockroaches are endemic to warm, dense cities. Their presence indicates climate and infrastructure, not the cleanliness of any individual building."
+      },
+      {
+        "heading": "Climate suitability",
+        "content": "Cockroach species common to Marrakech evolved in warm, humid environments. Mediterranean and Saharan edge climates provide ideal conditions: consistent warmth, seasonal moisture, and abundant organic matter. They would exist here regardless of human hygiene standards."
+      },
+      {
+        "heading": "Infrastructure connectivity",
+        "content": "The medina is a continuous built mass. Drainage channels, shared walls, and gaps in century-old construction create pathways between buildings. No individual property can fully seal itself from neighbors. A cockroach in your bathroom may have traveled from three buildings away."
+      },
+      {
+        "heading": "Population management, not elimination",
+        "content": "Professional pest control reduces populations but cannot eliminate them from an interconnected urban fabric. The goal is management, not eradication. Seeing one cockroach does not indicate infestation; it indicates that the building exists in an ecosystem where cockroaches are native."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-500-meters-feels-like-2km",
+    "title": "Why does walking 500 meters feel like 2 kilometers?",
+    "category": "movement-perception",
+    "sections": [
+      {
+        "content": "Distance perception depends on more than meters. It depends on terrain, navigation load, and sensory density."
+      },
+      {
+        "heading": "Terrain friction",
+        "content": "Uneven surfaces, steps, slopes, and obstacles slow physical progress. You cover the same distance with more steps, more attention, and more energy. Your body registers the effort, not the map distance."
+      },
+      {
+        "heading": "Navigation load",
+        "content": "Constant decision-making at intersections, dead ends, and ambiguous turnings demands attention that straight-line walking doesn't. Mental effort feels like physical effort. A confusing 500 meters exhausts like a straightforward kilometer."
+      },
+      {
+        "heading": "Sensory density",
+        "content": "More information per meter means more processing. Shops, people, sounds, smells, and hazards demand attention continuously. Your brain works harder per unit distance. This cognitive load translates to perceived physical fatigue."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-google-maps-misleads",
+    "title": "Why does Google Maps mislead you more here than at home?",
+    "category": "movement-perception",
+    "sections": [
+      {
+        "content": "Digital maps assume a relationship between mapped paths and walkable routes that doesn't hold in organic urban fabric."
+      },
+      {
+        "heading": "Mapping limitations",
+        "content": "Medina streets were not surveyed systematically. GPS accuracy degrades in narrow streets between tall buildings. Some paths are seasonal (covered during markets), conditional (closed at night), or ambiguous (through private property with informal access). The map shows a path; reality requires permission."
+      },
+      {
+        "heading": "Legibility mismatch",
+        "content": "At home, you confirm map directions with street signs, building numbers, and visible landmarks. Here, signs are sparse, numbers follow different logic, and landmarks you can see on the map (a mosque, a fountain) may be invisible at street level until you're beside them. The map is correct; you can't confirm it."
+      },
+      {
+        "heading": "Pedestrian vs. overhead view",
+        "content": "Maps show the city from above. You navigate from within. A passage that looks like a street from above may be a covered souk with multiple internal turns. The map's path is approximate; the actual route requires local knowledge or trial and error."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-locals-turn-different",
+    "title": "Why do locals turn right where tourists go left?",
+    "category": "movement-perception",
+    "sections": [
+      {
+        "content": "Locals navigate by felt distance, not measured distance. The shortest path isn't the straightest—it's the one that flows."
+      },
+      {
+        "heading": "Learned shortcuts",
+        "content": "Residents know which passages are faster at which times. A longer-looking route might avoid a congested market, a steep staircase, or a dead end that forces backtracking. The local path optimizes for total effort, including knowledge you don't have."
+      },
+      {
+        "heading": "Rhythm navigation",
+        "content": "Familiar routes are walked without conscious navigation. The body knows when to turn. This releases attention for conversation, thought, or awareness of surroundings. Taking the tourist's logical route requires active wayfinding—a cost the local's habitual route avoids."
+      },
+      {
+        "heading": "Social paths",
+        "content": "Regular routes pass familiar faces, favored shops, and useful services. The local's path serves social and practical purposes beyond simple transit. They're not just getting there; they're participating in a daily pattern."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-aisles-seem-crowded",
+    "title": "Why do shop aisles seem emptier but more crowded?",
+    "category": "movement-perception",
+    "sections": [
+      {
+        "content": "The perception of crowding depends on space conventions you've internalized without noticing."
+      },
+      {
+        "heading": "Proxemic differences",
+        "content": "Comfortable interpersonal distance varies by culture. What feels crowded to you may feel normal to someone accustomed to higher social density. Your discomfort is a mismatch of spatial expectations, not an objective measure of crowding."
+      },
+      {
+        "heading": "Multi-use space",
+        "content": "Aisles in souks are not just circulation. They're display space, negotiation space, and social space. A sparse-looking shop may feel crowded because the aisle is also where you're expected to stop, handle goods, and talk to the merchant. You're occupying multi-purpose space."
+      },
+      {
+        "heading": "Visual compression",
+        "content": "Goods filling vertical surfaces create visual density that registers as physical density. A shop with fewer people but more visible merchandise feels more crowded than an empty-walled space with more people spread through it."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-refusing-tea-feels-rude",
+    "title": "Why does it feel rude to refuse tea but you don't want any?",
+    "category": "cultural-tech",
+    "sections": [
+      {
+        "content": "Tea is not a beverage transaction. It's a relational gesture. Refusing tea refuses the relationship, not the drink."
+      },
+      {
+        "heading": "Tea as presence",
+        "content": "Offering tea signals: I see you, I acknowledge you, I'm prepared to spend time with you. Accepting means: I recognize this, I'm willing to be present. The tea itself matters less than the mutual commitment to occupy the same space without hurry."
+      },
+      {
+        "heading": "Commerce and courtesy",
+        "content": "In commercial contexts, tea creates space before negotiation. It establishes that you're a guest before you're a customer. Refusing tea signals: I don't have time for courtesy, get to the transaction. This feels abrupt even when you don't intend it."
+      },
+      {
+        "heading": "Practical exits",
+        "content": "You can accept tea without drinking it. Hold the glass, take small sips, let it cool untouched. The gesture matters. You can leave after one glass with thanks. The obligation is to accept the offer, not to finish the pot."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-time-feels-elastic",
+    "title": "Why does time feel elastic here?",
+    "category": "cultural-tech",
+    "sections": [
+      {
+        "content": "Clock time is one technology for organizing activity. It's not the only one. Here, event-based and relational timing coexist with scheduled time."
+      },
+      {
+        "heading": "Event-based scheduling",
+        "content": "Things happen when conditions are right, not when clocks dictate. A meeting starts when everyone arrives. A shop opens when the owner finishes breakfast. The prayer call provides five daily time anchors more reliable than watch-checking."
+      },
+      {
+        "heading": "Relational time",
+        "content": "Ending a conversation to meet a schedule signals that the schedule matters more than the person. In relational time, the current interaction deserves its full duration. Being late to the next thing is the cost of being present to the current one."
+      },
+      {
+        "heading": "Your experience of drift",
+        "content": "You're not wrong that things don't happen when expected. You're using a timing system that doesn't have priority here. The elasticity you feel is the mismatch between your internalized schedule-orientation and a context with different timing logic."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-intense-at-dusk",
+    "title": "Why does everything feel more intense at dusk?",
+    "category": "cultural-tech",
+    "sections": [
+      {
+        "content": "Dusk in Marrakech is a convergence point: thermal relief, social emergence, and sensory transition happening simultaneously."
+      },
+      {
+        "heading": "Thermal release",
+        "content": "After hours of heat, the first cooling triggers a collective exhale. Bodies that have been conserving energy begin to move. The city shifts from endurance mode to activity mode."
+      },
+      {
+        "heading": "Social emergence",
+        "content": "People who spent the afternoon indoors come out. Streets that were sparse fill. Markets reopen. The social density increases rapidly, concentrating human activity into the comfortable hours."
+      },
+      {
+        "heading": "Light and shadow",
+        "content": "The low sun creates long shadows, warm tones, and high contrast. Surfaces glow. Depth perception shifts. The visual environment becomes more dramatic without any change in the physical city. Your perception is heightened by the light itself."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-cities-feel-layered",
+    "title": "Why do Moroccan cities feel layered, not organized?",
+    "category": "deeper-systems",
+    "sections": [
+      {
+        "content": "The medina is not a designed city. It's an accumulated one. Each era left its mark without erasing the previous ones."
+      },
+      {
+        "heading": "Historical strata",
+        "content": "A single street may contain walls from the 12th century, doors from the 17th, electrical wiring from the 1960s, and satellite dishes from last year. The city is a physical record of continuous occupation, each layer adapted to rather than replaced by the next."
+      },
+      {
+        "heading": "Planning without master plans",
+        "content": "Growth followed rules—religious, social, practical—without a single coordinating authority. Each household, each generation, each ruler added according to the logic of their moment. The result is coherent without being systematic. Patterns emerge from repeated local decisions, not from imposed order."
+      },
+      {
+        "heading": "Reading the layers",
+        "content": "The confusion visitors feel is pattern recognition trying to find order that isn't there in that form. The city makes sense as accumulation, not as design. Once you see it as a record rather than a plan, the layers become legible on their own terms."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-walls-feel-like-memory",
+    "title": "Why do medina walls feel like memory?",
+    "category": "deeper-systems",
+    "sections": [
+      {
+        "content": "The walls are records. Every crack, patch, and modification tells part of the story of the lives lived against them."
+      },
+      {
+        "heading": "Material accumulation",
+        "content": "Tadelakt darkens with age and touch. Whitewash layers accumulate annual reapplication. Repairs reveal earlier states. The wall is a physical document of maintenance, neglect, damage, and repair stretching back centuries. You're looking at time made visible."
+      },
+      {
+        "heading": "Use patterns",
+        "content": "Wear marks where shoulders brush, smoothed corners where hands turn, faded areas where sun falls consistently—these traces record repetition. Bodies have moved along these walls for generations. The paths are worn into the surfaces."
+      },
+      {
+        "heading": "Memory without intention",
+        "content": "The wall doesn't mean to record anything. It simply persists while life happens against it. The sense of memory you feel is pattern recognition: you're reading evidence of lives without knowing whose. The wall is an inadvertent archive."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-neighborhoods-have-invisible-rules",
+    "title": "Why do neighborhoods have their own invisible rules?",
+    "category": "deeper-systems",
+    "sections": [
+      {
+        "content": "Each derb and quarter operates as a micro-community with norms developed among people who know each other. These norms are invisible to outsiders because they're enforced socially, not legally."
+      },
+      {
+        "heading": "Social micro-polities",
+        "content": "A residential derb knows its residents. Who belongs, who doesn't, and what behavior is acceptable are maintained through observation and gossip. A stranger's presence is noticed immediately. A resident's misbehavior is sanctioned through reputation, not regulation."
+      },
+      {
+        "heading": "Spatial conventions",
+        "content": "Where children play, where goods are stored, where washing hangs, which doors are left open—these are negotiated among neighbors, not written down. The conventions seem invisible because they're enforced by expectation, not signage."
+      },
+      {
+        "heading": "Outsider uncertainty",
+        "content": "You feel the rules without seeing them because you can sense social observation you don't understand. The discomfort of possibly violating unknown norms is accurate: you don't know the rules, and the community is watching to see if you'll break them."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-markets-feel-alive-not-loud",
+    "title": "Why do markets feel alive but not loud?",
+    "category": "deeper-systems",
+    "sections": [
+      {
+        "content": "The souk sustains activity without the acoustic chaos of modern retail. The difference is in rhythm, not volume."
+      },
+      {
+        "heading": "Embedded commerce",
+        "content": "Shops are also workshops. The craftsman making the object is also selling it. There's no separation between production and transaction, which means fewer surfaces dedicated to pure display, less competitive signaling, more functional presence."
+      },
+      {
+        "heading": "Rhythm over competition",
+        "content": "Adjacent shops often sell the same goods. Competition is not about capturing attention through noise—it's about relationship, quality, and negotiation. Shouting for attention signals desperation. Calm presence signals confidence."
+      },
+      {
+        "heading": "Movement as sound",
+        "content": "The souk's aliveness is kinetic: movement, activity, the clink of tools, the shuffle of feet, the murmur of negotiation. This is a different acoustic quality than loudspeaker-driven retail. The life is visible and audible, but at human scale."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
   }
 ]
