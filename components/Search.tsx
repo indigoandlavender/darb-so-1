@@ -40,7 +40,7 @@ export default function Search({ questions, onFilter }: SearchProps) {
       <input
         type="text"
         className="search-input"
-        placeholder="Search questions..."
+        placeholder="Questions or keywords..."
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
         aria-label="Search questions"
