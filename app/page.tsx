@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-prose">
         {/* Introduction */}
         <section className="mb-12">
-          <h1 className="text-display font-serif mb-6">Derb</h1>
+          <h1 className="text-4xl font-serif mb-6">Derb</h1>
           <div className="prose">
             <p>
               Derb is an urban reference for Marrakech. It explains the systems

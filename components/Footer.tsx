@@ -66,7 +66,7 @@ export default function Footer() {
               <span className="opacity-30">|</span>
               <a href="/fr" className="opacity-50 hover:opacity-100 transition-opacity">FR</a>
               <span className="opacity-30">|</span>
-              <a href="/ar" className="opacity-50 hover:opacity-100 transition-opacity">AR</a>
+              <a href="/es" className="opacity-50 hover:opacity-100 transition-opacity">ES</a>
             </div>
           </div>
         </div>
