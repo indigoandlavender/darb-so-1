@@ -75,6 +75,24 @@ body {
   border-bottom-color: var(--foreground);
 }
 
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tag:hover {
+  opacity: 0.7;
+}
+
 /* Typography */
 .font-serif {
   font-family: var(--font-serif);

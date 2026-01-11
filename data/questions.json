@@ -84,6 +84,66 @@
     "lastUpdated": "2025-01"
   },
   {
+    "slug": "why-riads-feel-humid",
+    "title": "Why do riads feel humid, especially at night?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "The same features that keep riads cool—thick walls, courtyards, fountains, and limited ventilation—also trap moisture. Humidity you notice is often the building working as designed."
+      },
+      {
+        "heading": "Evaporative cooling has a cost",
+        "content": "Courtyard fountains and pools cool the air through evaporation. Water becomes water vapor, absorbing heat in the process. But that vapor stays in the enclosed courtyard space. The cooling mechanism adds humidity by design."
+      },
+      {
+        "heading": "Thermal mass holds moisture",
+        "content": "Thick earthen walls absorb and release not just heat, but moisture. After rain or courtyard cleaning, walls absorb water that slowly migrates outward. In the medina's dense construction, moisture from multiple sources—ground, rain, neighbors—moves through shared walls continuously."
+      },
+      {
+        "heading": "Night air behavior",
+        "content": "At night, temperatures drop but the air's capacity to hold moisture also drops. The same amount of water vapor feels more humid in cool air than warm air. A riad that feels dry at 35°C can feel damp at 20°C—even though the actual moisture content hasn't changed."
+      },
+      {
+        "heading": "Ventilation limits",
+        "content": "Riads are designed to minimize exchange with the hot outside air. This keeps heat out but also keeps moisture in. Modern additions—sealed windows, blocked vents, enclosed terraces—often make humidity worse by further reducing airflow."
+      },
+      {
+        "heading": "Seasonal variation",
+        "content": "Winter brings rain and cooler temperatures, increasing perceived humidity significantly. Summer's dry heat burns off moisture. If you're visiting in winter or after rain, humidity is at its peak. This is temporary—and still preferable to the heat the building was designed to defeat."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "why-riad-rooms-no-windows",
+    "title": "Why don't riad rooms have windows to the outside?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "Riad rooms face inward to the courtyard, not outward to the street. This isn't a design flaw—it's the entire point of the architecture."
+      },
+      {
+        "heading": "Privacy by design",
+        "content": "Islamic residential tradition emphasizes the separation of private family life from public space. The home is a sanctuary. Street-facing windows would expose the interior to anyone passing by. The courtyard provides light and air without compromising privacy—you look inward, not outward."
+      },
+      {
+        "heading": "Climate logic",
+        "content": "The medina street is hot, dusty, and noisy. An outward-facing window would admit afternoon sun (45°C+), dust from passing traffic, and sound from neighbors, motorcycles, and commerce. The courtyard offers the same natural light and ventilation without these costs. The blank exterior wall is also the thickest—providing maximum thermal mass against the harshest exposure."
+      },
+      {
+        "heading": "Security considerations",
+        "content": "A house that reveals nothing from outside offers nothing to assess. In historical contexts of instability—and in dense urban environments today—opacity is protection. Windows would show wealth, occupancy, and vulnerability."
+      },
+      {
+        "heading": "What you have instead",
+        "content": "Riad rooms open onto galleries that overlook the courtyard. Upper floors often have roof terraces with open sky above. The light comes from the center, not the edge. This is a different relationship with the outdoors—you're inside an outdoor room, not looking out from an indoor one."
+      }
+    ],
+    "illustrations": [],
+    "lastUpdated": "2025-01"
+  },
+  {
     "slug": "why-shopkeepers-shout-then-ignore",
     "title": "Why do shopkeepers shout but then ignore you when you enter?",
     "category": "everyday-urban-reality",
@@ -172,24 +232,28 @@
     "lastUpdated": "2025-01"
   },
   {
-    "slug": "why-public-toilets-smell",
-    "title": "Why do public toilets smell a certain way?",
+    "slug": "why-riad-bathrooms-smell",
+    "title": "Why do riad bathrooms sometimes smell?",
     "category": "built-environment",
     "sections": [
       {
-        "content": "The smell is usually not from waste itself, but from drainage infrastructure that cannot fully separate waste gases from occupied space."
+        "content": "The smell in riad bathrooms is usually not from waste itself, but from drainage infrastructure that cannot fully separate sewer gases from living space. This affects even well-maintained properties."
       },
       {
         "heading": "Trap failures",
-        "content": "Water traps—U-bends that hold water to block sewer gases—require consistent water flow. In intermittently used facilities, traps dry out. In hot climates, evaporation is faster. A dry trap is an open pipe to the sewer."
+        "content": "Water traps—U-bends that hold water to block sewer gases—require consistent water flow. In guest bathrooms used intermittently, traps dry out between guests. In Marrakech's heat, evaporation is faster than in cooler climates. A dry trap is effectively an open pipe to the sewer."
       },
       {
-        "heading": "Ventilation limits",
-        "content": "Modern plumbing relies on vent stacks that allow sewer gases to escape above roof level. Retrofitted facilities often lack proper venting. Gases that should exit through the roof instead migrate through the nearest available opening—which is the fixture itself."
+        "heading": "Historic plumbing retrofits",
+        "content": "Most riads predate modern plumbing by centuries. Bathrooms were added to buildings never designed for them. Proper vent stacks—pipes that let sewer gases escape above roof level—are often impossible to retrofit through thick earthen walls. Gases that should exit through the roof instead migrate through the nearest opening: the drain itself."
       },
       {
-        "heading": "Maintenance economics",
-        "content": "Public facilities face a gap between usage intensity and maintenance resources. High traffic, limited budgets, and intermittent water supply create conditions where smells accumulate faster than intervention."
+        "heading": "Shared infrastructure",
+        "content": "Medina drainage often connects multiple properties to shared channels that predate individual building renovations. What happens in neighboring buildings can affect your bathroom. A blockage three doors away can push gases back through your drains."
+      },
+      {
+        "heading": "Simple solutions",
+        "content": "Running water briefly in floor drains and sinks refills traps. Many riads leave instructions to flush all drains daily. The smell typically indicates dry traps, not dirty conditions—and returns quickly if drains go unused."
       }
     ],
     "illustrations": [],
@@ -717,6 +781,76 @@
         "url": "https://marrakech-riads.com/en/riad-marrakech-medina/"
       }
     ],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "what-happened-2023-earthquake",
+    "title": "What happened in the 2023 earthquake, and is Marrakech safe now?",
+    "category": "built-environment",
+    "sections": [
+      {
+        "content": "On September 8, 2023, a magnitude 6.8 earthquake struck the High Atlas Mountains, about 70 kilometers southwest of Marrakech. It was Morocco's deadliest earthquake in decades, with nearly 3,000 lives lost—almost entirely in rural mountain villages, not in the city."
+      },
+      {
+        "heading": "What happened in Marrakech",
+        "content": "The medina felt significant shaking. Some historic structures suffered damage: parts of walls, minarets, and older buildings cracked or partially collapsed. The ramparts were damaged in places. However, the city's core remained intact. Most riads, built with thick earthen walls designed to flex rather than shatter, weathered the event with minor or no damage."
+      },
+      {
+        "heading": "The real tragedy was in the mountains",
+        "content": "Villages in the Atlas—Amizmiz, Talat N'Yacoub, Ouirgane, and others—were devastated. Adobe homes built on steep slopes collapsed entirely. The earthquake's epicenter was rural, and infrastructure for rescue and reconstruction was limited. The human loss was concentrated far from tourist areas."
+      },
+      {
+        "heading": "Current conditions",
+        "content": "Marrakech today shows little visible damage. Repairs to historic sites are ongoing, but the city functions normally. Tourism resumed within weeks. The medina's density and construction methods—which can feel claustrophobic to visitors—are actually earthquake-resistant features. Thick walls and low-rise construction absorb seismic energy."
+      },
+      {
+        "heading": "Is it safe?",
+        "content": "Earthquakes of this magnitude are rare in Morocco—the previous comparable event was in 1960. The 2023 earthquake was not a warning of ongoing danger; it was a release of accumulated tectonic stress. Seismologists do not predict elevated risk following such an event. The city is as safe as it was before, which is to say: it exists in a seismic zone, like much of the Mediterranean, and has for a millennium."
+      }
+    ],
+    "illustrations": [],
+    "sources": [
+      {
+        "text": "USGS: M 6.8 Morocco Earthquake",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufc"
+      },
+      {
+        "text": "Reuters: Morocco earthquake death toll",
+        "url": "https://www.reuters.com/world/africa/morocco-earthquake-death-toll-rises-nearly-3000-2023-09-12/"
+      }
+    ],
+    "lastUpdated": "2025-01"
+  },
+  {
+    "slug": "what-to-wear-marrakech",
+    "title": "What should I wear in Marrakech?",
+    "category": "cultural-tech",
+    "sections": [
+      {
+        "content": "Marrakech is a cosmopolitan city with millions of tourists annually. There is no enforced dress code. But understanding local norms helps you move through the city with less friction—and more comfort."
+      },
+      {
+        "heading": "Practicality first",
+        "content": "The climate is harsh. Summer temperatures exceed 45°C; winter nights drop to 5°C. Loose, breathable clothing in light colors makes summer bearable. Layers are essential from October to April. Comfortable walking shoes matter more than fashion—you will walk kilometers daily on uneven surfaces."
+      },
+      {
+        "heading": "Cultural context",
+        "content": "Morocco is a Muslim-majority country, but Marrakech is not conservative by regional standards. Moroccan women wear everything from full coverage to jeans and t-shirts. Foreign tourists are not expected to dress differently than they would in Southern Europe. That said, very short shorts, visible undergarments, and bare midriffs attract attention you may not want—less for religious reasons than because they read as unusual."
+      },
+      {
+        "heading": "Men and women differ",
+        "content": "Men face almost no scrutiny regardless of dress. Women receive more attention in general, and revealing clothing increases it. This is not fair, but it is true. Many women find that covering shoulders and knees reduces unwanted comments without requiring any major wardrobe changes."
+      },
+      {
+        "heading": "Mosque and sacred sites",
+        "content": "Non-Muslims cannot enter most mosques in Morocco, so interior dress codes rarely apply. However, if invited into a private home or neighborhood mosque, covering arms and legs is respectful. Remove shoes when entering homes and some shops."
+      },
+      {
+        "heading": "What locals actually wear",
+        "content": "Young Moroccans in Marrakech wear jeans, dresses, athletic wear, and global fashion. Older generations and those from more conservative backgrounds may dress more traditionally. The djellaba (hooded robe) is common for both men and women. You will see the full spectrum of modesty on any medina street. Marrakech is not one thing."
+      }
+    ],
+    "illustrations": [],
     "lastUpdated": "2025-01"
   }
 ]

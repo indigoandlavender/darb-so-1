@@ -1,19 +1,18 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { Question } from '@/lib/types';
 
 interface SearchProps {
   questions: Question[];
   onFilter: (filtered: Question[]) => void;
+  initialQuery?: string;
 }
 
-export default function Search({ questions, onFilter }: SearchProps) {
-  const [query, setQuery] = useState('');
+export default function Search({ questions, onFilter, initialQuery = '' }: SearchProps) {
+  const [query, setQuery] = useState(initialQuery);
 
-  const handleSearch = (value: string) => {
-    setQuery(value);
-
+  const performSearch = (value: string) => {
     if (!value.trim()) {
       onFilter(questions);
       return;
@@ -35,8 +34,20 @@ export default function Search({ questions, onFilter }: SearchProps) {
     onFilter(filtered);
   };
 
+  // Apply initial query on mount
+  useEffect(() => {
+    if (initialQuery) {
+      performSearch(initialQuery);
+    }
+  }, []);
+
+  const handleSearch = (value: string) => {
+    setQuery(value);
+    performSearch(value);
+  };
+
   return (
-    <div className="mb-12">
+    <div className="mb-8">
       <input
         type="text"
         className="search-input"
